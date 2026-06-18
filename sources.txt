@@ -6,3 +6,5 @@
 # Example:
 # https://iptv-org.github.io/iptv/index.m3u
 # https://example.com/playlist.m3u8
+https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u
+https://raw.githubusercontent.com/mondo-parallelo/DragonWarrior/575b9e24deb19633c5c23e5cdb7ebcc0d18ddc1b/docs/QueChoaTV.m3u
