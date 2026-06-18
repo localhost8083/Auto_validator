@@ -88,7 +88,6 @@ NEXT TV | https://imglink.cc/cdn/RY7jBwPKAr.jpg | https://next.badinan.xyz/nextt
 DAZN Spanish Commentators | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 FIFA Live 🇦🇺 🇹🇷 | https://shorturl.at/NPoFh | https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 Somoy TV 🇧🇩 | https://shorturl.at/NPoFh | https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
-D Sports | https://imglink.cc/cdn/RY7jBwPKAr.jpg | https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 Win Sports 🇧🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 Bein Sports Direct 🇫🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 Discovery_Asia HD |   | https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8
@@ -109,6 +108,7 @@ Arabica TV |   | http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 Desh TV |   | https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 pcv |   | https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 9XM TV |   | https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
+Deepto TV |   | https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 BBC Cbeebies | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
 Cartoon Network | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 PBS Kids | https://i.imgur.com/ubZMeQv.jpg | https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
