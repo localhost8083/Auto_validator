@@ -25,6 +25,8 @@ Public API:
 """
 
 import re
+import shutil
+import subprocess
 import time
 from urllib.parse import urljoin
 
@@ -296,3 +298,59 @@ def deep_validate(session: requests.Session, url: str, timeout_ms: int = 12000, 
 
     ok, reason = _probe_segment(session, urljoin(url, seg), timeout)
     return out(ok, reason)
+
+
+
+# --------------------------------------------------------------------------- #
+# STAGE 3 (optional) - ffmpeg decode probe
+# --------------------------------------------------------------------------- #
+def ffmpeg_available() -> bool:
+    """True if an `ffmpeg` binary is on PATH."""
+    return shutil.which('ffmpeg') is not None
+
+
+def ffmpeg_validate(url: str, timeout_ms: int = 15000, probe_secs: int = 4) -> dict:
+    """
+    Strongest "does it really play" test: ask ffmpeg to actually open the stream
+    and decode a few seconds of it to a null sink. ffmpeg exits 0 only if it could
+    connect, demux and decode real media. This catches streams that deliver bytes
+    but are undecodable / stalled / wrong-codec, which the byte-level test cannot.
+
+    Returns dict(ok, reason, ms). If ffmpeg is not installed, returns ok=True with
+    a "skipped" reason so it never silently drops the whole list.
+    """
+    start = time.time()
+
+    def out(ok, reason):
+        return {'ok': ok, 'reason': reason, 'ms': int((time.time() - start) * 1000)}
+
+    if not ffmpeg_available():
+        return out(True, 'ffmpeg not available - skipped')
+
+    hard = max(8.0, timeout_ms / 1000.0)
+    rw_timeout_us = str(int(hard * 1_000_000))  # I/O read/write timeout (microseconds)
+    cmd = [
+        'ffmpeg', '-nostdin', '-hide_banner', '-loglevel', 'error',
+        '-user_agent', DEFAULT_UA,
+        '-rw_timeout', rw_timeout_us,
+        '-i', url,
+        '-t', str(probe_secs),   # decode only the first N seconds
+        '-map', '0',
+        '-f', 'null', '-',
+    ]
+    try:
+        proc = subprocess.run(
+            cmd, capture_output=True,
+            timeout=hard + probe_secs + 5,  # hard wall-clock cap so nothing hangs
+        )
+    except subprocess.TimeoutExpired:
+        return out(False, 'ffmpeg: timed out (no decodable media in time)')
+    except Exception as e:  # noqa: BLE001
+        return out(False, 'ffmpeg: ' + str(e)[:100])
+
+    if proc.returncode == 0:
+        return out(True, f'ffmpeg decoded ~{probe_secs}s OK')
+
+    err = (proc.stderr or b'').decode('utf-8', 'replace').strip().splitlines()
+    last = err[-1] if err else f'exit {proc.returncode}'
+    return out(False, 'ffmpeg: ' + last[:140])

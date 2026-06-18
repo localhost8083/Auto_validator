@@ -21,7 +21,12 @@ outputs back to the repo.
    and actually downloads a real media segment (and the AES key when the stream
    is encrypted), verifying genuine media bytes come back rather than an HTML
    error page. Anything that yields a **`Stream error: ...`** is filtered out.
-5. **Outputs** — writes the surviving channels to:
+5. **Stage 3 (optional) — ffmpeg decode probe** — when `FFPROBE_TEST=1` and
+   `ffmpeg` is installed, each surviving channel is opened by ffmpeg and a few
+   seconds are actually decoded. This is the strictest check: it drops streams
+   that deliver bytes but won't truly play (bad codec, stalled feed, partial
+   stream). It increases confidence, never the channel count.
+6. **Outputs** — writes the surviving channels to:
    - `output/validated.json`
    - `output/validated.m3u`
    - `output/validated.txt`
@@ -46,6 +51,10 @@ python validator.py
 | `DEAD_TIMEOUT` | `9000`        | Per-request timeout (ms), stage 1            |
 | `TEST_TIMEOUT` | `12000`       | Per-request timeout (ms), stage 2            |
 | `DEEP_TEST`    | `1`           | Set `0` to run the dead check only           |
+| `FFPROBE_TEST` | `0`           | Set `1` for Stage 3: ffmpeg actually decodes a few seconds (needs ffmpeg on PATH) |
+| `FFPROBE_WORKERS` | `4`        | Parallel ffmpeg probes (Stage 3)             |
+| `FFPROBE_SECS` | `4`           | Seconds of media ffmpeg decodes per channel  |
+| `FFPROBE_TIMEOUT` | `15000`    | Per-probe I/O timeout (ms), Stage 3          |
 | `VERIFY_SSL`   | `1`           | Set `0` to disable TLS verification          |
 | `MAX_CHANNELS` | `0`           | Cap total channels (`0` = no cap)            |
 | `IGNORE_GROUPS`| `Promo`       | Comma-separated group-titles to drop entirely|

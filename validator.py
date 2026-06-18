@@ -37,7 +37,7 @@ import requests
 from requests.adapters import HTTPAdapter
 
 import m3u
-from checker import check_stream, deep_validate, headers
+from checker import check_stream, deep_validate, ffmpeg_available, ffmpeg_validate, headers
 
 # --------------------------------------------------------------------------- #
 # Config
@@ -67,6 +67,13 @@ TEST_WORKERS = max(1, env_int('TEST_WORKERS', 6))
 DEAD_TIMEOUT = env_int('DEAD_TIMEOUT', 9000)
 TEST_TIMEOUT = env_int('TEST_TIMEOUT', 12000)
 DEEP_TEST = os.environ.get('DEEP_TEST', '1') != '0'
+
+# Optional STAGE 3: ffmpeg actually decodes a few seconds of each surviving
+# channel. Strictest check; runs only if FFPROBE_TEST != 0 and ffmpeg is on PATH.
+FFPROBE_TEST = os.environ.get('FFPROBE_TEST', '0') != '0'
+FFPROBE_WORKERS = max(1, env_int('FFPROBE_WORKERS', 4))
+FFPROBE_SECS = max(1, env_int('FFPROBE_SECS', 4))
+FFPROBE_TIMEOUT = env_int('FFPROBE_TIMEOUT', 15000)
 VERIFY_SSL = os.environ.get('VERIFY_SSL', '1') != '0'
 MAX_CHANNELS = env_int('MAX_CHANNELS', 0)
 
@@ -210,6 +217,26 @@ def stage_auto_test(session, channels):
     return passed, failed
 
 
+def stage_ffmpeg(channels):
+    if not ffmpeg_available():
+        log('  ! ffmpeg not found on PATH - skipping decode probe (no channels dropped).')
+        return channels, []
+
+    def work(_i, ch):
+        return ffmpeg_validate(ch['url'], FFPROBE_TIMEOUT, FFPROBE_SECS)
+
+    results = run_pool(channels, work, FFPROBE_WORKERS, 'ffmpeg')
+    passed, failed = [], []
+    for ch, res in zip(channels, results):
+        if res and res.get('ok'):
+            ch['_ffmpeg'] = res
+            passed.append(ch)
+        else:
+            ch['_ffmpeg'] = res or {'ok': False, 'reason': 'ffmpeg: unknown'}
+            failed.append(ch)
+    return passed, failed
+
+
 # --------------------------------------------------------------------------- #
 # Output
 # --------------------------------------------------------------------------- #
@@ -323,6 +350,13 @@ def main():
         validated = live
         if not DEEP_TEST:
             log('STAGE 2 skipped (DEEP_TEST=0).')
+
+    if FFPROBE_TEST and validated:
+        log(f'STAGE 3 - ffmpeg decode probe ({FFPROBE_WORKERS} workers, {FFPROBE_SECS}s each)...')
+        validated, ff_failed = stage_ffmpeg(validated)
+        log(f'  decoded-ok={len(validated)}  ffmpeg-removed={len(ff_failed)}')
+    elif FFPROBE_TEST:
+        log('STAGE 3 skipped (nothing to probe).')
 
     meta = {
         'generatedAt': datetime.now(timezone.utc).isoformat(),
