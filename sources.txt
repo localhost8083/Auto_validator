@@ -1,0 +1,8 @@
+# Auto M3U validator - source playlists
+# Put one M3U/M3U8 playlist URL per line.
+# Lines starting with '#' are comments and are ignored.
+# Channels from every source are combined and de-duplicated by stream URL.
+#
+# Example:
+# https://iptv-org.github.io/iptv/index.m3u
+# https://example.com/playlist.m3u8
