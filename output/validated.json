@@ -1,49 +1,69 @@
 {
-  "generatedAt": "2026-06-18T06:43:48.055971+00:00",
+  "generatedAt": "2026-06-18T06:48:09.802330+00:00",
   "sources": 2,
   "totalParsed": 183,
   "live": 171,
-  "validated": 155,
+  "validated": 160,
   "channels": [
     {
       "name": "Football World Cup 2026",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
       "tvgId": "",
       "tvgName": "",
       "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1487
+      "latencyMs": 1221
     },
     {
       "name": "Football World Cup 2026",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg",
       "tvgId": "",
       "tvgName": "",
       "url": "http://114.130.57.224:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 631
+      "latencyMs": 576
+    },
+    {
+      "name": "ATN Bangla UK",
+      "group": "Uncategorized",
+      "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 688
+    },
+    {
+      "name": "NTV UK",
+      "group": "Uncategorized",
+      "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/NTV.png",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 699
     },
     {
       "name": "Asian TV",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Asian%20Tv.png",
       "tvgId": "",
       "tvgName": "",
       "url": "https://mtlivestream.com/hls/asian/ytlive/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1006
+      "latencyMs": 925
     },
     {
       "name": "Bangla TV Europe",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png",
       "tvgId": "",
       "tvgName": "",
       "url": "https://byphdgllyk.gpcdn.net/hls/banglatveurope/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1175
+      "latencyMs": 1013
     },
     {
       "name": "Srk Tv",
@@ -53,7 +73,17 @@
       "tvgName": "",
       "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 858
+      "latencyMs": 661
+    },
+    {
+      "name": "Channel 1 News 4K",
+      "group": "Uncategorized",
+      "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%201.png",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 946
     },
     {
       "name": "Bengla Beats",
@@ -63,7 +93,7 @@
       "tvgName": "",
       "url": "https://tplay.live/originals/bengali-beats/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 44
+      "latencyMs": 586
     },
     {
       "name": "Channel-16",
@@ -73,7 +103,7 @@
       "tvgName": "",
       "url": "https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 322
+      "latencyMs": 955
     },
     {
       "name": "Peace TV Bangla",
@@ -83,7 +113,7 @@
       "tvgName": "",
       "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 442
+      "latencyMs": 1046
     },
     {
       "name": "Peace TV English",
@@ -93,7 +123,7 @@
       "tvgName": "",
       "url": "https://dzkyvlfyge.erbvr.com/PeaceTvEnglish/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 702
+      "latencyMs": 769
     },
     {
       "name": "Peace TV Urdu",
@@ -103,7 +133,7 @@
       "tvgName": "",
       "url": "https://dzkyvlfyge.erbvr.com/PeaceTvUrdu/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 727
+      "latencyMs": 766
     },
     {
       "name": "Madani TV",
@@ -113,7 +143,7 @@
       "tvgName": "",
       "url": "https://streaming.madanichannel.tv/static/streaming-playlists/hls/d3e49b76-ac06-4689-a641-9200445b647f/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 478
+      "latencyMs": 435
     },
     {
       "name": "AL Sunnah TV",
@@ -123,7 +153,7 @@
       "tvgName": "",
       "url": "http://m.live.net.sa:1935/live/sunnah/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 19
+      "latencyMs": 383
     },
     {
       "name": "EWTN TV",
@@ -133,7 +163,7 @@
       "tvgName": "",
       "url": "https://cdn3.wowza.com/1/ZVBYYXFLLzE0c3NC/Qk1FMURC/hls/qrpsvkxl/720/chunklist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 257
+      "latencyMs": 328
     },
     {
       "name": "God TV",
@@ -143,7 +173,7 @@
       "tvgName": "",
       "url": "https://hlsb-us.god.tv/GODTV/USA-480.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 139
+      "latencyMs": 263
     },
     {
       "name": "Arihant TV",
@@ -153,7 +183,7 @@
       "tvgName": "",
       "url": "https://aasthaott.akamaized.net/110923/smil:arihant.smil/chunklist_b1928000.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 249
+      "latencyMs": 407
     },
     {
       "name": "G-Serise",
@@ -163,7 +193,7 @@
       "tvgName": "",
       "url": "https://vods2.aynaott.com/gseriesDrama/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 908
+      "latencyMs": 799
     },
     {
       "name": "Enter 10 Bangla",
@@ -173,7 +203,7 @@
       "tvgName": "",
       "url": "https://live-bangla.akamaized.net/liveabr/pub-iobanglakp3sff/live_720p/chunks.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 269
+      "latencyMs": 458
     },
     {
       "name": "R Plus Gold",
@@ -183,7 +213,7 @@
       "tvgName": "",
       "url": "https://cdn-4.pishow.tv/live/1231/1231_1.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 707
+      "latencyMs": 649
     },
     {
       "name": "AAKASH AATH",
@@ -193,7 +223,7 @@
       "tvgName": "",
       "url": "https://cdn-4.pishow.tv/live/969/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 707
+      "latencyMs": 648
     },
     {
       "name": "Bangla Movies",
@@ -203,7 +233,7 @@
       "tvgName": "",
       "url": "https://live-stream.utkalbongo.com/hls/livebanglatvstream.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 920
+      "latencyMs": 793
     },
     {
       "name": "Dhoom Music",
@@ -213,7 +243,7 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/378/378_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 529
+      "latencyMs": 492
     },
     {
       "name": "ABP Ananda",
@@ -223,7 +253,7 @@
       "tvgName": "",
       "url": "https://amg01448-samsungin-abpananda-samsungin-ad-pw.amagi.tv/playlist/amg01448-samsungin-abpananda-samsungin/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 787
+      "latencyMs": 816
     },
     {
       "name": "Zee 24 Ghanta",
@@ -233,7 +263,7 @@
       "tvgName": "",
       "url": "https://d2dsoyvkr33m05.cloudfront.net/index_1.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 729
+      "latencyMs": 722
     },
     {
       "name": "News18 Bangla News",
@@ -243,7 +273,7 @@
       "tvgName": "",
       "url": "https://amg01448-samsungin-news18bangla-samsungin-ad-qy.amagi.tv/playlist/amg01448-samsungin-news18bangla-samsungin/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 260
+      "latencyMs": 333
     },
     {
       "name": "R Plus News",
@@ -253,7 +283,7 @@
       "tvgName": "",
       "url": "https://thelegitpro.in/pntv/rplusnews24x7/tracks-v1a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1166
+      "latencyMs": 875
     },
     {
       "name": "Calcutta News",
@@ -263,7 +293,7 @@
       "tvgName": "",
       "url": "https://akdnetwork.co.in/live/cnnew/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1300
+      "latencyMs": 1051
     },
     {
       "name": "Kolkata TV",
@@ -273,7 +303,7 @@
       "tvgName": "",
       "url": "https://cdn.ottlive.co.in/kolkatatv/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 401
+      "latencyMs": 519
     },
     {
       "name": "TV9 Bangla",
@@ -283,7 +313,7 @@
       "tvgName": "",
       "url": "https://amg01448-samsungin-tv9bangla-samsungin-9lgnh.amagi.tv/playlist/amg01448-samsungin-tv9bangla-samsungin/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 355
+      "latencyMs": 337
     },
     {
       "name": "NK",
@@ -293,7 +323,7 @@
       "tvgName": "",
       "url": "https://amg01218-republictvfast-amg01218c1-samsung-in-1918.playouts.now.amagi.tv/playlist/amg01218-republictvfast-rbangla-samsungin/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 136
+      "latencyMs": 114
     },
     {
       "name": "Gopal Bhar TV",
@@ -303,7 +333,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209611/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 62
+      "latencyMs": 200
     },
     {
       "name": "Motu Patlu",
@@ -313,7 +343,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 69
+      "latencyMs": 175
     },
     {
       "name": "Tom & Jerry TV",
@@ -323,7 +353,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 17
+      "latencyMs": 186
     },
     {
       "name": "Bantul The Great",
@@ -333,7 +363,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209869/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 64
+      "latencyMs": 201
     },
     {
       "name": "Doraemon TV",
@@ -343,7 +373,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 18
+      "latencyMs": 188
     },
     {
       "name": "Oggy and the Cockroaches",
@@ -353,7 +383,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 61
+      "latencyMs": 190
     },
     {
       "name": "Mr Bean Animated",
@@ -363,7 +393,7 @@
       "tvgName": "",
       "url": "https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 351
+      "latencyMs": 181
     },
     {
       "name": "Jungle Book",
@@ -373,17 +403,17 @@
       "tvgName": "",
       "url": "https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1837
+      "latencyMs": 3357
     },
     {
       "name": "Zee Anmol TV",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Zee_Anmol_Cinema_logo.png",
       "tvgId": "",
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/256/256_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 264
+      "latencyMs": 241
     },
     {
       "name": "Big Magic",
@@ -393,7 +423,17 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/13/13_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 568
+      "latencyMs": 468
+    },
+    {
+      "name": "Hinde Movies 3",
+      "group": "Hindi Movies",
+      "logo": "",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://vods2.aynaott.com/hindimovies/index.m3u8",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 214
     },
     {
       "name": "The Movie Club",
@@ -403,27 +443,27 @@
       "tvgName": "",
       "url": "https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 2886
+      "latencyMs": 2832
     },
     {
       "name": "Zee Action",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png",
       "tvgId": "",
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/270/270_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 494
+      "latencyMs": 474
     },
     {
       "name": "B4U Kadak",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/B4U%20Movies.png",
       "tvgId": "",
       "tvgName": "",
       "url": "https://cdn-2.pishow.tv/live/227/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 635
+      "latencyMs": 676
     },
     {
       "name": "Sheemaroo Bollywood",
@@ -433,7 +473,7 @@
       "tvgName": "",
       "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg00864-shemarooenterta-shemabollywood-ono/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 435
+      "latencyMs": 167
     },
     {
       "name": "Joo Music",
@@ -443,7 +483,7 @@
       "tvgName": "",
       "url": "https://livecdn.live247stream.com/joomusic/tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 537
+      "latencyMs": 954
     },
     {
       "name": "Goldmines",
@@ -453,7 +493,7 @@
       "tvgName": "",
       "url": "https://cdn-2.pishow.tv/live/1459/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 732
+      "latencyMs": 664
     },
     {
       "name": "Goldmines Bollywood",
@@ -463,7 +503,7 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/52/52_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 492
+      "latencyMs": 484
     },
     {
       "name": "Goldmines Movies",
@@ -473,7 +513,7 @@
       "tvgName": "",
       "url": "https://cdn-2.pishow.tv/live/1461/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 619
+      "latencyMs": 660
     },
     {
       "name": "Goldmines Movies 2",
@@ -483,7 +523,7 @@
       "tvgName": "",
       "url": "https://cdn-2.pishow.tv/live/1460/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 717
+      "latencyMs": 668
     },
     {
       "name": "Manoranjan Prime",
@@ -493,7 +533,7 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/345/345_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 265
+      "latencyMs": 484
     },
     {
       "name": "Manoranjan Grend",
@@ -503,27 +543,27 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/19/19_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 518
+      "latencyMs": 469
     },
     {
       "name": "DD Sports 2.0",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 351
+      "latencyMs": 299
     },
     {
       "name": "Animal Planet HD",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Animal%20Planet.png",
       "tvgId": "",
       "tvgName": "",
       "url": "https://tiger-hub.vercel.app@vodzong.mjunoon.tv:8087/streamtest/Animal-Planet-158-3/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 503
+      "latencyMs": 771
     },
     {
       "name": "BBC Earth",
@@ -533,7 +573,7 @@
       "tvgName": "",
       "url": "https://d3u3pfhhvuad9k.cloudfront.net/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 230
+      "latencyMs": 80
     },
     {
       "name": "BBC Earth",
@@ -543,7 +583,7 @@
       "tvgName": "",
       "url": "https://amg00793-bbcstudios-amg00793c3-lg-us-2528.playouts.now.amagi.tv/playlist/amg00793-bbcstudios-bbcearta-lgus/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 322
+      "latencyMs": 82
     },
     {
       "name": "Travel XP English EU",
@@ -553,7 +593,7 @@
       "tvgName": "",
       "url": "https://travelxp-travelxp-1-eu.rakuten.wurl.tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 153
+      "latencyMs": 250
     },
     {
       "name": "Travel XP English NZ",
@@ -563,7 +603,7 @@
       "tvgName": "",
       "url": "https://travelxp-travelxp-1-nz.samsung.wurl.tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 218
+      "latencyMs": 301
     },
     {
       "name": "Wild Earth",
@@ -573,7 +613,7 @@
       "tvgName": "",
       "url": "https://wildearth-plex.amagi.tv/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 166
+      "latencyMs": 310
     },
     {
       "name": "Food Food",
@@ -583,7 +623,7 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/143/143_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 251
+      "latencyMs": 244
     },
     {
       "name": "CGTN Docment",
@@ -593,7 +633,7 @@
       "tvgName": "",
       "url": "https://english-livebkali.cgtn.com/live/doccgtn_1.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 265
+      "latencyMs": 514
     },
     {
       "name": "Discover Pakistan TV",
@@ -603,17 +643,17 @@
       "tvgName": "",
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/discoverpakistan.stream/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 117
+      "latencyMs": 184
     },
     {
       "name": "Tom & Jarry",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "h",
       "tvgId": "",
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 24
+      "latencyMs": 58
     },
     {
       "name": "Zoo Moo",
@@ -623,37 +663,37 @@
       "tvgName": "",
       "url": "https://amg01553-blueantmediaasi-zoomoonz-samsungnz-rdufn.amagi.tv/playlist/amg01553-blueantmediaasi-zoomoonz-samsungnz/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 380
+      "latencyMs": 323
     },
     {
       "name": "Rongeen TV",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://server.thelegitpro.in/rongeentv/rongeentv/tracks-v1a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 967
+      "latencyMs": 700
     },
     {
       "name": "Action Hollywood Movies",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/English%20Movies.jpeg",
       "tvgId": "",
       "tvgName": "",
       "url": "https://amg01076-lightningintern-actionhollywood-samsungnz-82rry.amagi.tv/playlist/amg01076-lightningintern-actionhollywood-samsungnz/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 451
+      "latencyMs": 325
     },
     {
       "name": "YRF Music HD",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 344
+      "latencyMs": 352
     },
     {
       "name": "Hindi Hits HD",
@@ -663,27 +703,27 @@
       "tvgName": "",
       "url": "http://146.59.253.52:8080/hindihitshd/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 174
+      "latencyMs": 286
     },
     {
       "name": "9XM",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://raw.githubusercontent.com/subirkumarpaul/Logo/main/9xm.png",
       "tvgId": "",
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/155/155_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 246
+      "latencyMs": 241
     },
     {
       "name": "E24",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://i.ibb.co/dbjnG3X/20240803-105403.png",
       "tvgId": "",
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/159/159_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 259
+      "latencyMs": 241
     },
     {
       "name": "Music India",
@@ -693,67 +733,67 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/158/158_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 285
+      "latencyMs": 234
     },
     {
       "name": "CNN",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 260
+      "latencyMs": 332
     },
     {
       "name": "CGTN News",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 116
+      "latencyMs": 190
     },
     {
       "name": "DW Naws",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 98
+      "latencyMs": 21
     },
     {
       "name": "France 24",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png",
       "tvgId": "",
       "tvgName": "",
       "url": "https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 114
+      "latencyMs": 175
     },
     {
       "name": "RT Now",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 931
+      "latencyMs": 2073
     },
     {
       "name": "Sky News",
-      "group": "",
+      "group": "Uncategorized",
       "logo": "",
       "tvgId": "",
       "tvgName": "",
       "url": "https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 474
+      "latencyMs": 857
     },
     {
       "name": "CNA News",
@@ -763,7 +803,7 @@
       "tvgName": "",
       "url": "https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 289
+      "latencyMs": 205
     },
     {
       "name": "NHK World",
@@ -773,7 +813,7 @@
       "tvgName": "",
       "url": "http://103.175.73.12:8080/live/417/417_0.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 248
+      "latencyMs": 241
     },
     {
       "name": "AL SUNNAH AL NABAWIYAH TV",
@@ -783,7 +823,7 @@
       "tvgName": "",
       "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_quran/hls_roku/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 286
+      "latencyMs": 589
     },
     {
       "name": "Makka live",
@@ -793,7 +833,7 @@
       "tvgName": "",
       "url": "https://cdn-globecast.akamaized.net/live/eds/saudi_sunnah/hls_roku/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 306
+      "latencyMs": 470
     },
     {
       "name": "FIFA WORLD CUP LIVE-1",
@@ -803,7 +843,7 @@
       "tvgName": "",
       "url": "http://84.17.50.102/fox/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 162
+      "latencyMs": 289
     },
     {
       "name": "SRK TV",
@@ -813,7 +853,7 @@
       "tvgName": "",
       "url": "https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/tracks-v1a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 847
+      "latencyMs": 664
     },
     {
       "name": "TPV Sport",
@@ -823,7 +863,7 @@
       "tvgName": "",
       "url": "https://1nyaler.streamhostingcdn.top/stream/89/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1041
+      "latencyMs": 1067
     },
     {
       "name": "NEXT TV",
@@ -833,7 +873,7 @@
       "tvgName": "",
       "url": "https://next.badinan.xyz/nexttv/FHD/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 184
+      "latencyMs": 367
     },
     {
       "name": "DAZN Spanish Commentators",
@@ -843,7 +883,7 @@
       "tvgName": "",
       "url": "https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 985
+      "latencyMs": 1043
     },
     {
       "name": "FIFA Live 🇦🇺 🇹🇷",
@@ -853,7 +893,7 @@
       "tvgName": "",
       "url": "https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 198
+      "latencyMs": 337
     },
     {
       "name": "Somoy TV 🇧🇩",
@@ -863,7 +903,7 @@
       "tvgName": "",
       "url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1478
+      "latencyMs": 1080
     },
     {
       "name": "D Sports",
@@ -873,7 +913,17 @@
       "tvgName": "",
       "url": "https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 849
+      "latencyMs": 891
+    },
+    {
+      "name": "Win Sports 🇧🇷",
+      "group": "FIFA World Cup 2026",
+      "logo": "https://shorturl.at/NPoFh",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 797
     },
     {
       "name": "Bein Sports Direct 🇫🇷",
@@ -883,7 +933,7 @@
       "tvgName": "",
       "url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 969
+      "latencyMs": 760
     },
     {
       "name": "Discovery_Asia HD",
@@ -893,7 +943,7 @@
       "tvgName": "",
       "url": "https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1682
+      "latencyMs": 716
     },
     {
       "name": "Saudia Arabia",
@@ -903,7 +953,7 @@
       "tvgName": "",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 361
+      "latencyMs": 594
     },
     {
       "name": "Live Quran TV 🎯 📡",
@@ -913,7 +963,7 @@
       "tvgName": "",
       "url": "https://live.kwikmotion.com/sharjahtvquranlive/shqurantv.smil/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 462
+      "latencyMs": 675
     },
     {
       "name": "WAZ TV 🎯 📡",
@@ -923,7 +973,7 @@
       "tvgName": "",
       "url": "https://tplay.live/originals/ilm-tv/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 21
+      "latencyMs": 100
     },
     {
       "name": "স্পাইস FM Radio 📻 মোবাইল লক করা অবস্থায়ও চলতে থাকবে",
@@ -933,7 +983,7 @@
       "tvgName": "",
       "url": "https://stream.spicefmbd.com/stream.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 797
+      "latencyMs": 814
     },
     {
       "name": "India A vs Afghanistan A Shamshad TV",
@@ -943,7 +993,7 @@
       "tvgName": "",
       "url": "https://5a1178b42cc03.streamlock.net/shamshadtelevision/shamshadtelevision/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 589
+      "latencyMs": 871
     },
     {
       "name": "PTV Sports pk HD",
@@ -953,7 +1003,7 @@
       "tvgName": "",
       "url": "https://crichd.johirxofficial.workers.dev/live/ptvpk.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 446
+      "latencyMs": 729
     },
     {
       "name": "DD SPORTS",
@@ -963,7 +1013,7 @@
       "tvgName": "",
       "url": "https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/b17adfe543354fdd8d189b110617cddd/index_3.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 221
+      "latencyMs": 266
     },
     {
       "name": "Redbull TV",
@@ -973,7 +1023,7 @@
       "tvgName": "",
       "url": "https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_3360.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 151
+      "latencyMs": 21
     },
     {
       "name": "Motor Vision",
@@ -983,7 +1033,7 @@
       "tvgName": "",
       "url": "https://mvg-mv-xumo.otteravision.com/mvg/mv/mv.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 51
+      "latencyMs": 107
     },
     {
       "name": "A SPOR",
@@ -993,7 +1043,7 @@
       "tvgName": "",
       "url": "https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/aspor/aspor_480p.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 796
+      "latencyMs": 933
     },
     {
       "name": "Bein Sports 1🎯",
@@ -1003,7 +1053,7 @@
       "tvgName": "",
       "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg02873-kravemedia-mtrspt1-distrotv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 245
+      "latencyMs": 99
     },
     {
       "name": "Real Madrid tv Football",
@@ -1013,7 +1063,7 @@
       "tvgName": "",
       "url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/bitrate_3.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 141
+      "latencyMs": 574
     },
     {
       "name": "FIFA+",
@@ -1023,7 +1073,7 @@
       "tvgName": "",
       "url": "https://37b4c228.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWZyX0ZJRkFQbHVzRnJlbmNoX0hMUw/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 400
+      "latencyMs": 988
     },
     {
       "name": "Arabica TV",
@@ -1033,7 +1083,7 @@
       "tvgName": "",
       "url": "http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 5364
+      "latencyMs": 368
     },
     {
       "name": "Desh TV",
@@ -1043,7 +1093,7 @@
       "tvgName": "",
       "url": "https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 79
+      "latencyMs": 204
     },
     {
       "name": "pcv",
@@ -1053,7 +1103,7 @@
       "tvgName": "",
       "url": "https://padmaonline.duckdns.org:8088/pcv/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1234
+      "latencyMs": 1038
     },
     {
       "name": "9XM TV",
@@ -1063,17 +1113,7 @@
       "tvgName": "",
       "url": "https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 272
-    },
-    {
-      "name": "Deepto TV",
-      "group": "Bangladeshi 🇧🇩",
-      "logo": " ",
-      "tvgId": "",
-      "tvgName": "",
-      "url": "https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8",
-      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1186
+      "latencyMs": 319
     },
     {
       "name": "BBC Cbeebies",
@@ -1083,7 +1123,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 63
+      "latencyMs": 188
     },
     {
       "name": "Cartoon Network",
@@ -1093,7 +1133,7 @@
       "tvgName": "",
       "url": "https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 71
+      "latencyMs": 191
     },
     {
       "name": "PBS Kids",
@@ -1103,7 +1143,7 @@
       "tvgName": "",
       "url": "https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 161
+      "latencyMs": 141
     },
     {
       "name": "ZB Cartoon",
@@ -1113,7 +1153,7 @@
       "tvgName": "",
       "url": "https://server.zillarbarta.com/zbcatun/video.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1305
+      "latencyMs": 1153
     },
     {
       "name": "Zoo Moo",
@@ -1123,7 +1163,7 @@
       "tvgName": "",
       "url": "https://zoomoo-samsungau.amagi.tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 252
+      "latencyMs": 125
     },
     {
       "name": "Peace tv Bangla",
@@ -1133,7 +1173,7 @@
       "tvgName": "",
       "url": "https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v3a1/mono.m3u8?sid=s7AaNdTzDE2912wNcPLejQ",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 448
+      "latencyMs": 608
     },
     {
       "name": "Noor Tv",
@@ -1143,7 +1183,7 @@
       "tvgName": "",
       "url": "https://cdn.bestream.io:19360/elfaro4/elfaro4.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 488
+      "latencyMs": 525
     },
     {
       "name": "Sunnah Tv",
@@ -1153,7 +1193,7 @@
       "tvgName": "",
       "url": "http://m.live.net.sa:1935/live/sunnah/chunklist.m3u8?v=1",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 13
+      "latencyMs": 400
     },
     {
       "name": "QURAN",
@@ -1163,7 +1203,7 @@
       "tvgName": "",
       "url": "http://m.live.net.sa:1935/live/quran/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 3
+      "latencyMs": 393
     },
     {
       "name": "BAHRAIN QURAN",
@@ -1173,7 +1213,7 @@
       "tvgName": "",
       "url": "https://5c7b683162943.streamlock.net/live/ngrp:bahrainquran_all/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 665
+      "latencyMs": 1097
     },
     {
       "name": "QURAN RADIOTV SMC",
@@ -1183,7 +1223,7 @@
       "tvgName": "",
       "url": "https://live.kwikmotion.com/smcquranlive/quranradiolive/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 312
+      "latencyMs": 475
     },
     {
       "name": "AL QAMAR",
@@ -1193,7 +1233,7 @@
       "tvgName": "",
       "url": "https://streamer3.premio.link/alqamar/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 473
+      "latencyMs": 697
     },
     {
       "name": "ALMASIRA MUBASHER",
@@ -1203,7 +1243,7 @@
       "tvgName": "",
       "url": "https://live2.cdnbridge.tv/AlmasirahMubasher/Mubasher_All/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 243
+      "latencyMs": 309
     },
     {
       "name": "AL EKHBARIA",
@@ -1213,7 +1253,7 @@
       "tvgName": "",
       "url": "https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 294
+      "latencyMs": 439
     },
     {
       "name": "AL EKHBARIA",
@@ -1223,7 +1263,7 @@
       "tvgName": "",
       "url": "https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 278
+      "latencyMs": 268
     },
     {
       "name": "AL ISTIQAMA",
@@ -1233,7 +1273,7 @@
       "tvgName": "",
       "url": "https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 597
+      "latencyMs": 852
     },
     {
       "name": "Discovery HD",
@@ -1243,7 +1283,7 @@
       "tvgName": "",
       "url": "https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 133
+      "latencyMs": 456
     },
     {
       "name": "Sochi 24 HD 🇷🇺",
@@ -1253,7 +1293,7 @@
       "tvgName": "",
       "url": "http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 541
+      "latencyMs": 589
     },
     {
       "name": "ACCU WEATHER",
@@ -1263,7 +1303,7 @@
       "tvgName": "",
       "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 485
+      "latencyMs": 181
     },
     {
       "name": "Amazon SAT",
@@ -1273,7 +1313,7 @@
       "tvgName": "",
       "url": "https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 465
+      "latencyMs": 717
     },
     {
       "name": "OUTDOOR CHANNEL 🇺🇸",
@@ -1283,7 +1323,7 @@
       "tvgName": "",
       "url": "https://cdn-apse1-prod.tsv2.amagi.tv/linear/amg00718-outdoorchannela-outdoortvnz-samsungnz/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 896
+      "latencyMs": 594
     },
     {
       "name": "REAL WILD 🇬🇧",
@@ -1293,7 +1333,7 @@
       "tvgName": "",
       "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00426-littledotstudio-realwild-tcl/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 395
+      "latencyMs": 295
     },
     {
       "name": "INSIGHT",
@@ -1303,7 +1343,7 @@
       "tvgName": "",
       "url": "https://insighttv-samsung-us.amagi.tv/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 377
+      "latencyMs": 489
     },
     {
       "name": "FASHION ONE",
@@ -1313,7 +1353,7 @@
       "tvgName": "",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/u_stream_5c9e2ee6997cb_1/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 612
+      "latencyMs": 908
     },
     {
       "name": "FASHION ONE",
@@ -1323,7 +1363,7 @@
       "tvgName": "",
       "url": "https://b01c02nl.mediatriple.net/videoonlylive/mtkgeuihrlfwlive/broadcast_5c9e2ee690051.smil/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 600
+      "latencyMs": 912
     },
     {
       "name": "Digital Fashion",
@@ -1333,7 +1373,7 @@
       "tvgName": "",
       "url": "http://115.187.41.216:8080/hls/digitalfashion/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 873
+      "latencyMs": 761
     },
     {
       "name": "Times Of India",
@@ -1343,7 +1383,7 @@
       "tvgName": "",
       "url": "https://live.sli.ke/live/npnhm84gz9/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 331
+      "latencyMs": 1054
     },
     {
       "name": "Wion News",
@@ -1353,7 +1393,7 @@
       "tvgName": "",
       "url": "https://d7x8z4yuq42qn.cloudfront.net/index_7.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 862
+      "latencyMs": 763
     },
     {
       "name": "Tv9 Bangla",
@@ -1363,7 +1403,7 @@
       "tvgName": "",
       "url": "https://dyjmyiv3bp2ez.cloudfront.net/pub-iotv9banaen8yq/liveabr/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 351
+      "latencyMs": 250
     },
     {
       "name": "TRT WORLD",
@@ -1373,7 +1413,7 @@
       "tvgName": "",
       "url": "https://tv-trtworld.medya.trt.com.tr/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 336
+      "latencyMs": 225
     },
     {
       "name": "Press TV Iran",
@@ -1383,7 +1423,7 @@
       "tvgName": "",
       "url": "https://live.presstv.ir/hls/presstv_5_482/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 718
+      "latencyMs": 639
     },
     {
       "name": "France News 24",
@@ -1393,7 +1433,7 @@
       "tvgName": "",
       "url": "https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_5000.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 132
+      "latencyMs": 593
     },
     {
       "name": "France 24 English (720p)",
@@ -1403,7 +1443,7 @@
       "tvgName": "",
       "url": "https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 313
+      "latencyMs": 474
     },
     {
       "name": "DW NEWS",
@@ -1413,7 +1453,7 @@
       "tvgName": "",
       "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/stream02/streamPlaylist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 90
+      "latencyMs": 177
     },
     {
       "name": "NDTV NEWS",
@@ -1423,7 +1463,7 @@
       "tvgName": "",
       "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 301
+      "latencyMs": 983
     },
     {
       "name": "T Global News (Canada)",
@@ -1433,7 +1473,7 @@
       "tvgName": "",
       "url": "https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 78
+      "latencyMs": 164
     },
     {
       "name": "DW English",
@@ -1443,7 +1483,17 @@
       "tvgName": "",
       "url": "https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 11
+      "latencyMs": 20
+    },
+    {
+      "name": "RTNEWS GLOBAL",
+      "group": "NEWS INTERNASIONAL",
+      "logo": "https://i.ibb.co/M7W5zRy/images.png",
+      "tvgId": "",
+      "tvgName": "",
+      "url": "https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1",
+      "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
+      "latencyMs": 1584
     },
     {
       "name": "RT NEWS USA",
@@ -1453,7 +1503,7 @@
       "tvgName": "",
       "url": "https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 382
+      "latencyMs": 554
     },
     {
       "name": "CNBC Indonesia (EN) 🛜",
@@ -1463,7 +1513,7 @@
       "tvgName": "",
       "url": "https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 822
+      "latencyMs": 703
     },
     {
       "name": "Iran International(EN) 🛜",
@@ -1473,7 +1523,7 @@
       "tvgName": "",
       "url": "https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 154
+      "latencyMs": 262
     },
     {
       "name": "Breaking News",
@@ -1483,7 +1533,7 @@
       "tvgName": "",
       "url": "https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg02703-leadstory-leadstory-samsungau/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 313
+      "latencyMs": 415
     },
     {
       "name": "CGTN",
@@ -1493,7 +1543,7 @@
       "tvgName": "",
       "url": "https://0472.org/hls/cgtn.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 1460
+      "latencyMs": 1156
     },
     {
       "name": "CNN (US)",
@@ -1503,7 +1553,7 @@
       "tvgName": "",
       "url": "https://turnerlive.warnermediacdn.com/hls/live/586495/cnngo/cnn_slate/VIDEO_0_3564000.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 131
+      "latencyMs": 71
     },
     {
       "name": "Global News (US)",
@@ -1513,7 +1563,7 @@
       "tvgName": "",
       "url": "https://live.corusdigitaldev.com/groupb/live/3062d0e3-ed4c-4f47-8482-95648250f4b8/live.isml/.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 12
+      "latencyMs": 72
     },
     {
       "name": "India Today",
@@ -1523,7 +1573,7 @@
       "tvgName": "",
       "url": "https://indiatodaylive.akamaized.net/hls/live/2014320/indiatoday/indiatodaylive/playlist.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 235
+      "latencyMs": 964
     },
     {
       "name": "NDTV English",
@@ -1533,7 +1583,7 @@
       "tvgName": "",
       "url": "https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678/ndtv24x7/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 628
+      "latencyMs": 343
     },
     {
       "name": "NDTV Hindi",
@@ -1543,7 +1593,7 @@
       "tvgName": "",
       "url": "https://ndtvindiaelemarchana.akamaized.net/hls/live/2003679/ndtvindia/master.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 238
+      "latencyMs": 419
     },
     {
       "name": "News Max 2",
@@ -1553,7 +1603,7 @@
       "tvgName": "",
       "url": "https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8",
       "source": "https://raw.githubusercontent.com/FunctionError/PiratesTv/refs/heads/main/combined_playlist.m3u",
-      "latencyMs": 41
+      "latencyMs": 216
     }
   ]
 }
