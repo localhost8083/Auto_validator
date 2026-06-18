@@ -1,9 +1,12 @@
 Name | Logo URL | Stream URL
 Football World Cup 2026 | https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg | https://live.thebosstv.com:30443/dwlive/Somoy-TV/playlist.m3u8
 Football World Cup 2026 | https://carboncredits.com/wp-content/uploads/2025/09/shutterstock_2306088965-e1757112807302.jpg | http://114.130.57.224:8080/Somoy-TV-3Mb/tracks-v1a1/mono.m3u8?token=SkQuhAXZxgBan1
+ATN Bangla UK | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/ATN%20Bangla.png | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/atnbanglauk-off.stream/playlist.m3u8
+NTV UK | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/NTV.png | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/ntvuk00332211.stream/playlist.m3u8
 Asian TV | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Asian%20Tv.png | https://mtlivestream.com/hls/asian/ytlive/index.m3u8
 Bangla TV Europe | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Bangla%20TV.png | https://byphdgllyk.gpcdn.net/hls/banglatveurope/index.m3u8
 Srk Tv | https://ibb.co.com/nPXPTPK | https://srknowapp.ncare.live/srktvhlswodrm/srktv.stream/playlist.m3u8
+Channel 1 News 4K | https://raw.githubusercontent.com/subirkumarpaul/Logo/refs/heads/main/Channel%201.png | https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel1bd.stream/tracks-v1a1/mono.m3u8
 Bengla Beats | ://tplay.live/originals/bengali-beats/bengali-beats.png | https://tplay.live/originals/bengali-beats/index.m3u8
 Channel-16 |  | https://app24.jagobd.com.bd/c3VydmVyX8RpbEU9Mi8xNy8yMFDEEHGcfRgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcEdsEfeDeKiNkVN3PTOmdFseWRtaW51aiPhnPTI2/channel16bd.stream/tracks-v1a1/mono.m3u8
 Peace TV Bangla | https://i.ibb.co/Gfw89mC/20240804-033102.png | https://dzkyvlfyge.erbvr.com/PeaceTvBangla/tracks-v2a1/mono.m3u8
@@ -38,6 +41,7 @@ Mr Bean Animated |  | https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.
 Jungle Book | https://i.imgur.com/ubZMeQv.jpg | https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 Zee Anmol TV | https://upload.wikimedia.org/wikipedia/commons/b/b4/Zee_Anmol_Cinema_logo.png | http://103.175.73.12:8080/live/256/256_0.m3u8
 Big Magic |  | http://103.175.73.12:8080/live/13/13_0.m3u8
+Hinde Movies 3 |  | https://vods2.aynaott.com/hindimovies/index.m3u8
 The Movie Club |  | https://cc-r5hupcym5oehh.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-r5hupcym5oehh/SBUM/RunnTV/BollyFlix_IN/BollyFlix_IN.m3u8
 Zee Action | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/Zee%20Action.png | http://103.175.73.12:8080/live/270/270_0.m3u8
 B4U Kadak | https://raw.githubusercontent.com/subirkumarpaul/Logo/main/B4U%20Movies.png | https://cdn-2.pishow.tv/live/227/master.m3u8
@@ -86,6 +90,7 @@ DAZN Spanish Commentators | https://shorturl.at/NPoFh | https://1nyaler.streamho
 FIFA Live 🇦🇺 🇹🇷 | https://shorturl.at/NPoFh | https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 Somoy TV 🇧🇩 | https://shorturl.at/NPoFh | https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
 D Sports | https://imglink.cc/cdn/RY7jBwPKAr.jpg | https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
+Win Sports 🇧🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 Bein Sports Direct 🇫🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 Discovery_Asia HD |   | https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8
 Saudia Arabia |   | https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/2ad66056b51fd8c1b624854623112e43/index.m3u8
@@ -105,7 +110,6 @@ Arabica TV |   | http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 Desh TV |   | https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 pcv |   | https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 9XM TV |   | https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
-Deepto TV |   | https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 BBC Cbeebies | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
 Cartoon Network | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 PBS Kids | https://i.imgur.com/ubZMeQv.jpg | https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
@@ -143,6 +147,7 @@ DW NEWS | https://is.gd/imZMIp | https://dwamdstream102.akamaized.net/hls/live/2
 NDTV NEWS | https://is.gd/ih6x8j | https://ndtv24x7elemarchana.akamaized.net/hls/live/2003678-b/ndtv24x7/master.m3u8
 T Global News (Canada) |  | https://live.corusdigitaldev.com/groupd/live/49a91e7f-1023-430f-8d66-561055f3d0f7/live.isml/master.m3u8
 DW English | https://i.imgur.com/A1xzjOI.png | https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8?v=1
+RTNEWS GLOBAL | https://i.ibb.co/M7W5zRy/images.png | https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8?v=1
 RT NEWS USA | https://i.ibb.co/M7W5zRy/images.png | https://rt-glb.rttv.com/live/rtnews/playlist.m3u8?v=1
 CNBC Indonesia (EN) 🛜 | https://i.ibb.co/Tv1pgrG/download-4.png | https://live.cnbcindonesia.com/livecnbc/smil:cnbctv.smil/master.m3u8
 Iran International(EN) 🛜 |  | https://dev-live.livetvstream.co.uk/LS-63503-4/chunklist_b1196000.m3u8
