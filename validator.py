@@ -77,6 +77,13 @@ FFPROBE_TIMEOUT = env_int('FFPROBE_TIMEOUT', 15000)
 VERIFY_SSL = os.environ.get('VERIFY_SSL', '1') != '0'
 MAX_CHANNELS = env_int('MAX_CHANNELS', 0)
 
+# Sharding: split the (deduplicated, filtered) channel list across N parallel
+# CI runners. Each shard validates a disjoint, interleaved slice and writes a
+# partial result file (output/shard-<index>.json) that merge.py recombines into
+# the final outputs. SHARD_COUNT=1 (default) = single-machine behaviour as before.
+SHARD_COUNT = max(1, env_int('SHARD_COUNT', 1))
+SHARD_INDEX = max(0, env_int('SHARD_INDEX', 0))
+
 # Channels whose group-title or name match these are dropped entirely BEFORE any
 # scan/validation/output. Comma-separated, case-insensitive. Group match is per
 # token (group-title may be like "News;Public"); name match is substring (so
@@ -295,6 +302,19 @@ def write_outputs(channels, meta):
             f.write(f"{c.get('name', '')} | {c.get('logo', '')} | {c['url']}\n")
 
 
+def write_shard(channels, meta, index):
+    """Write a single shard's surviving channels + per-shard meta as JSON.
+
+    merge.py reads every shard-*.json and rebuilds the final validated outputs.
+    The channel dicts keep their _check/_test/_ffmpeg metadata (all JSON-safe).
+    """
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    path = os.path.join(OUTPUT_DIR, f'shard-{index}.json')
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump({'meta': meta, 'channels': channels}, f, ensure_ascii=False)
+    log(f'  wrote shard partial -> {path} ({len(channels)} channels)')
+
+
 # --------------------------------------------------------------------------- #
 # Main
 # --------------------------------------------------------------------------- #
@@ -330,11 +350,25 @@ def main():
         channels = channels[:MAX_CHANNELS]
     total_parsed = len(channels)
     log(f'Parsed {total_parsed} unique channels.')
+
+    # Split into a disjoint, interleaved slice for this runner. Interleaving
+    # (start::step) spreads same-source / similar-latency channels evenly across
+    # shards so each runner finishes in roughly the same wall-clock time.
+    if SHARD_COUNT > 1:
+        channels = channels[SHARD_INDEX::SHARD_COUNT]
+        log(f'Shard {SHARD_INDEX + 1}/{SHARD_COUNT}: validating '
+            f'{len(channels)} of {total_parsed} channels.')
+        total_parsed = len(channels)
+
     if total_parsed == 0:
-        write_outputs([], {
+        empty_meta = {
             'generatedAt': datetime.now(timezone.utc).isoformat(),
             'sources': len(urls), 'totalParsed': 0, 'live': 0,
-        })
+        }
+        if SHARD_COUNT > 1:
+            write_shard([], empty_meta, SHARD_INDEX)
+        else:
+            write_outputs([], empty_meta)
         log('Nothing to validate.')
         return 0
 
@@ -364,7 +398,10 @@ def main():
         'totalParsed': total_parsed,
         'live': len(live),
     }
-    write_outputs(validated, meta)
+    if SHARD_COUNT > 1:
+        write_shard(validated, meta, SHARD_INDEX)
+    else:
+        write_outputs(validated, meta)
 
     dt = time.time() - t0
     log('=== Summary ===')

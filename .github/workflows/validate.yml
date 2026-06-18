@@ -2,8 +2,8 @@ name: Validate M3U playlists
 
 on:
   schedule:
-    # Every 6 hours (UTC). Change to "0 */3 * * *" for every 3 hours.
-    - cron: "0 */6 * * *"
+    # Every 12 hours (UTC). e.g. "0 */6 * * *" = every 6h, "0 */3 * * *" = every 3h.
+    - cron: "0 */12 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -11,6 +11,7 @@ on:
       - "sources.txt"
       - "validator.py"
       - "checker.py"
+      - "merge.py"
       - "m3u.py"
       - ".github/workflows/validate.yml"
 
@@ -22,15 +23,27 @@ concurrency:
   group: validate-m3u
   cancel-in-progress: false
 
+env:
+  # Number of parallel runners the channel list is split across. More shards =
+  # faster wall-clock (each shard validates total/SHARDS channels on its own
+  # machine). Public repos can run up to 20 jobs concurrently.
+  SHARDS: "10"
+
 jobs:
-  validate:
+  # ----------------------------------------------------------------------- #
+  # Scan: each matrix job validates a disjoint, interleaved slice of channels
+  # (full pipeline incl. ffmpeg) and uploads its partial result as an artifact.
+  # ----------------------------------------------------------------------- #
+  scan:
     runs-on: ubuntu-latest
     timeout-minutes: 350
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
     steps:
       - name: Checkout
         uses: actions/checkout@v5
-        with:
-          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v6
@@ -47,26 +60,72 @@ jobs:
           sudo apt-get install -y ffmpeg
           ffmpeg -version | head -n 1
 
-      - name: Run validator
+      - name: Run validator (shard ${{ matrix.shard }})
         env:
-          CONCURRENCY: "20"
-          TEST_WORKERS: "8"
-          DEAD_TIMEOUT: "9000"
-          TEST_TIMEOUT: "12000"
+          SHARD_COUNT: ${{ env.SHARDS }}
+          SHARD_INDEX: ${{ matrix.shard }}
+          CONCURRENCY: "32"
+          TEST_WORKERS: "12"
+          DEAD_TIMEOUT: "8000"
+          TEST_TIMEOUT: "10000"
           DEEP_TEST: "1"
           # Stage 3: ffmpeg actually decodes a few seconds of each surviving
           # channel for the strictest validation. Set FFPROBE_TEST=0 to disable.
           FFPROBE_TEST: "1"
-          FFPROBE_WORKERS: "16"
+          FFPROBE_WORKERS: "8"
           FFPROBE_SECS: "3"
-          FFPROBE_TIMEOUT: "12000"
+          FFPROBE_TIMEOUT: "10000"
         run: python validator.py
+
+      - name: Upload shard partial
+        uses: actions/upload-artifact@v4
+        with:
+          name: shard-${{ matrix.shard }}
+          path: output/shard-${{ matrix.shard }}.json
+          if-no-files-found: error
+          retention-days: 1
+
+  # ----------------------------------------------------------------------- #
+  # Merge: recombine every shard partial into the final validated.* files and
+  # commit them back to the repo.
+  # ----------------------------------------------------------------------- #
+  merge:
+    needs: scan
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Download shard partials
+        uses: actions/download-artifact@v4
+        with:
+          path: shards
+          pattern: shard-*
+          merge-multiple: true
+
+      - name: Merge into final outputs
+        env:
+          SHARD_DIR: shards
+          OUTPUT_DIR: output
+        run: python merge.py
 
       - name: Commit refreshed outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add output/validated.json output/validated.m3u output/validated.txt
           if git diff --cached --quiet; then
             echo "No changes to commit."
           else

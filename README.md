@@ -59,22 +59,34 @@ python validator.py
 | `MAX_CHANNELS` | `0`           | Cap total channels (`0` = no cap)            |
 | `IGNORE_GROUPS`| `Promo`       | Comma-separated group-titles to drop entirely|
 | `IGNORE_NAMES` | `FalconCast`  | Comma-separated channel names to drop (substring, case-insensitive) |
+| `SHARD_COUNT`  | `1`           | Split the channel list across N runners (CI sharding) |
+| `SHARD_INDEX`  | `0`           | Which slice this runner validates (`0..SHARD_COUNT-1`) |
 
 ## Automation
 
 [`.github/workflows/validate.yml`](.github/workflows/validate.yml) runs on a
-cron every 3 hours (and on manual dispatch / pushes to `sources.txt`). It
-installs dependencies, runs `validator.py`, and commits any changes under
-`output/` back to `main`.
+cron every 12 hours (and on manual dispatch / pushes to `sources.txt`).
 
-To change the cadence, edit the `cron:` line (e.g. `0 */2 * * *` for every 2
-hours).
+To scale past ~18k channels within the GitHub Actions job time limit, the
+workflow is **sharded**: a `scan` matrix splits the channel list across N
+parallel runners (each a separate machine, so ffmpeg work runs truly in
+parallel). Every shard validates a disjoint, interleaved slice and uploads a
+`shard-<i>.json` partial. A final `merge` job recombines all partials with
+[`merge.py`](merge.py), de-duplicates by stream URL, and commits the refreshed
+`output/validated.*` back to `main`.
+
+Tuning:
+- **Shard count** — edit the `SHARDS` env *and* the `matrix.shard` list (they
+  must list `0..SHARDS-1`). Public repos can run up to ~20 jobs concurrently.
+- **Cadence** — edit the `cron:` line (e.g. `0 */6 * * *` for every 6 hours).
+- **Per-runner throughput** — `CONCURRENCY`, `TEST_WORKERS`, `FFPROBE_WORKERS`.
 
 ## Files
 
 | File             | Purpose                                              |
 |------------------|------------------------------------------------------|
-| `validator.py`   | Main pipeline (sources → stages → outputs)           |
+| `validator.py`   | Main pipeline (sources → stages → outputs / shard)   |
+| `merge.py`       | Recombine shard partials into final `validated.*`    |
 | `checker.py`     | Dead check + deep auto-test (Stream Error detection) |
 | `m3u.py`         | M3U parser / serializer                              |
 | `sources.txt`    | Your playlist URLs (one per line)                    |
