@@ -82,7 +82,7 @@ def parse(text: str) -> List[Dict]:
                 'tvgId': attrs.get('tvg-id', ''),
                 'tvgName': attrs.get('tvg-name', ''),
                 'logo': attrs.get('tvg-logo', ''),
-                'group': attrs.get('group-title', 'Uncategorized'),
+                'group': attrs.get('group-title') or 'Uncategorized',
                 'url': '',
                 'extras': list(pending_extras),
             }

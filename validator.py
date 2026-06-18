@@ -222,7 +222,7 @@ def write_outputs(channels, meta):
         chk = c.get('_check', {})
         json_channels.append({
             'name': c.get('name', ''),
-            'group': c.get('group', 'Uncategorized'),
+            'group': c.get('group') or 'Uncategorized',
             'logo': c.get('logo', ''),
             'tvgId': c.get('tvgId', ''),
             'tvgName': c.get('tvgName', ''),
@@ -250,7 +250,7 @@ def write_outputs(channels, meta):
         attrs['tvg-name'] = c.get('name') or c.get('tvgName') or 'Unnamed'
         if c.get('logo'):
             attrs['tvg-logo'] = c['logo']
-        attrs['group-title'] = c.get('group', 'Uncategorized')
+        attrs['group-title'] = c.get('group') or 'Uncategorized'
         m3u_channels.append({
             'name': c.get('name', 'Unnamed'),
             'url': c['url'],
