@@ -78,7 +78,7 @@ jobs:
         run: python validator.py
 
       - name: Upload shard partial
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: shard-${{ matrix.shard }}
           path: output/shard-${{ matrix.shard }}.json
@@ -109,7 +109,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Download shard partials
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v5
         with:
           path: shards
           pattern: shard-*
