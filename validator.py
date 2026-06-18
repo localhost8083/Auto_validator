@@ -27,6 +27,7 @@ Config via environment variables (all optional):
 
 import json
 import os
+import re
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -51,6 +52,14 @@ def env_int(name, default):
         return default
 
 
+def env_list(name, default):
+    """Parse a comma-separated env var into a list, or return the default list."""
+    raw = os.environ.get(name)
+    if raw is None:
+        return list(default)
+    return [s.strip() for s in raw.split(',') if s.strip()]
+
+
 SOURCES_FILE = os.environ.get('SOURCES_FILE', os.path.join(ROOT, 'sources.txt'))
 OUTPUT_DIR = os.environ.get('OUTPUT_DIR', os.path.join(ROOT, 'output'))
 CONCURRENCY = max(1, env_int('CONCURRENCY', 16))
@@ -60,6 +69,30 @@ TEST_TIMEOUT = env_int('TEST_TIMEOUT', 12000)
 DEEP_TEST = os.environ.get('DEEP_TEST', '1') != '0'
 VERIFY_SSL = os.environ.get('VERIFY_SSL', '1') != '0'
 MAX_CHANNELS = env_int('MAX_CHANNELS', 0)
+
+# Channels whose group-title or name match these are dropped entirely BEFORE any
+# scan/validation/output. Comma-separated, case-insensitive. Group match is per
+# token (group-title may be like "News;Public"); name match is substring (so
+# "FalconCast" also catches "FalconCast (1080p)").
+IGNORE_GROUPS = env_list('IGNORE_GROUPS', ['Promo'])
+IGNORE_NAMES = env_list('IGNORE_NAMES', ['FalconCast'])
+
+
+def is_ignored(ch):
+    """True if a channel matches the group/name blocklist."""
+    group = ch.get('group') or ''
+    group_full = group.strip().lower()
+    group_tokens = [t.strip().lower() for t in re.split(r'[;,]', group) if t.strip()]
+    for g in IGNORE_GROUPS:
+        gl = g.strip().lower()
+        if gl and (gl == group_full or gl in group_tokens):
+            return True
+    name = (ch.get('name') or '').strip().lower()
+    for n in IGNORE_NAMES:
+        nl = n.strip().lower()
+        if nl and nl in name:
+            return True
+    return False
 
 
 def log(msg):
@@ -256,6 +289,15 @@ def main():
 
     log(f'Fetching {len(urls)} playlist source(s)...')
     channels = fetch_playlists(session, urls)
+
+    if IGNORE_GROUPS or IGNORE_NAMES:
+        before = len(channels)
+        channels = [c for c in channels if not is_ignored(c)]
+        removed = before - len(channels)
+        if removed:
+            log(f'Ignored {removed} channel(s) via blocklist '
+                f'(groups={IGNORE_GROUPS}, names={IGNORE_NAMES}).')
+
     if MAX_CHANNELS and len(channels) > MAX_CHANNELS:
         log(f'Capping {len(channels)} -> {MAX_CHANNELS} channels (MAX_CHANNELS).')
         channels = channels[:MAX_CHANNELS]

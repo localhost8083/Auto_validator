@@ -48,6 +48,8 @@ python validator.py
 | `DEEP_TEST`    | `1`           | Set `0` to run the dead check only           |
 | `VERIFY_SSL`   | `1`           | Set `0` to disable TLS verification          |
 | `MAX_CHANNELS` | `0`           | Cap total channels (`0` = no cap)            |
+| `IGNORE_GROUPS`| `Promo`       | Comma-separated group-titles to drop entirely|
+| `IGNORE_NAMES` | `FalconCast`  | Comma-separated channel names to drop (substring, case-insensitive) |
 
 ## Automation
 
