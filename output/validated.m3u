@@ -75,8 +75,6 @@ https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
 #EXTINF:-1 tvg-name="Mr Bean Animated" group-title="CARTOON Drama",Mr Bean Animated
 https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
-#EXTINF:-1 tvg-name="Jungle Book" tvg-logo="https://i.imgur.com/ubZMeQv.jpg" group-title="CARTOON Drama",Jungle Book
-https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 #EXTINF:-1 tvg-name="Zee Anmol TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b4/Zee_Anmol_Cinema_logo.png" group-title="",Zee Anmol TV
 http://103.175.73.12:8080/live/256/256_0.m3u8
 #EXTINF:-1 tvg-name="Big Magic" group-title="Hindi",Big Magic
@@ -149,8 +147,6 @@ https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-sam
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="DW Naws" group-title="",DW Naws
 https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-#EXTINF:-1 tvg-name="France 24" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png" group-title="",France 24
-https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 #EXTINF:-1 tvg-name="RT Now" group-title="",RT Now
 https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 #EXTINF:-1 tvg-name="Sky News" group-title="",Sky News
@@ -177,6 +173,8 @@ https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 #EXTINF:-1 tvg-name="Somoy TV 🇧🇩" tvg-logo="https://shorturl.at/NPoFh" group-title="FIFA World Cup 2026",Somoy TV 🇧🇩
 https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+#EXTINF:-1 tvg-name="D Sports" tvg-logo="https://imglink.cc/cdn/RY7jBwPKAr.jpg" group-title="FIFA World Cup 2026",D Sports
+https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 #EXTINF:-1 tvg-name="Win Sports 🇧🇷" tvg-logo="https://shorturl.at/NPoFh" group-title="FIFA World Cup 2026",Win Sports 🇧🇷
 https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 #EXTINF:-1 tvg-name="Bein Sports Direct 🇫🇷" tvg-logo="https://shorturl.at/NPoFh" group-title="FIFA World Cup 2026",Bein Sports Direct 🇫🇷
@@ -217,8 +215,6 @@ https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 #EXTINF:-1 tvg-name="9XM TV" tvg-logo=" " group-title="Bangladeshi 🇧🇩",9XM TV
 https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
-#EXTINF:-1 tvg-name="Deepto TV" tvg-logo=" " group-title="Bangladeshi 🇧🇩",Deepto TV
-https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 #EXTINF:-1 tvg-name="BBC Cbeebies" tvg-logo="https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg" group-title="Kids",BBC Cbeebies
 https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
 #EXTINF:-1 tvg-name="Cartoon Network" tvg-logo="https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg" group-title="Kids",Cartoon Network
@@ -251,8 +247,6 @@ https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 #EXTINF:-1 tvg-name="AL ISTIQAMA" tvg-logo="https://i.ibb.co/HPzRmd3/alistiqama.png" group-title="ISLAMIC CHANNELS",AL ISTIQAMA
 https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
-#EXTINF:-1 tvg-name="Discovery HD" group-title="Infotainment Channels",Discovery HD
-https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 #EXTINF:-1 tvg-name="Sochi 24 HD 🇷🇺" group-title="Infotainment Channels",Sochi 24 HD 🇷🇺
 http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 tvg-name="ACCU WEATHER" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg" group-title="Infotainment Channels",ACCU WEATHER

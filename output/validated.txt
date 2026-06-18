@@ -37,7 +37,6 @@ Bantul The Great |  | https://live20.bozztv.com/giatvplayout7/giatv-209869/track
 Doraemon TV |  | https://live20.bozztv.com/giatvplayout7/giatv-209902/tracks-v1a1/mono.ts.m3u8
 Oggy and the Cockroaches |  | https://live20.bozztv.com/giatvplayout7/giatv-210728/tracks-v1a1/mono.ts.m3u8
 Mr Bean Animated |  | https://amg00627-amg00627c29-rakuten-it-3989.playouts.now.amagi.tv/playlist/amg00627-banijayfast-mrbeanitcc-rakutenit/playlist.m3u8
-Jungle Book | https://i.imgur.com/ubZMeQv.jpg | https://cc-4bhi5osabejc9.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-4bhi5osabejc9/junglebook.m3u8
 Zee Anmol TV | https://upload.wikimedia.org/wikipedia/commons/b/b4/Zee_Anmol_Cinema_logo.png | http://103.175.73.12:8080/live/256/256_0.m3u8
 Big Magic |  | http://103.175.73.12:8080/live/13/13_0.m3u8
 Hinde Movies 3 |  | https://vods2.aynaott.com/hindimovies/index.m3u8
@@ -74,7 +73,6 @@ Music India | https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKyMNNb_SRC2
 CNN |  | https://amg01448-samsungin-cnnnow-samsungin-4npqg.amagi.tv/playlist/amg01448-samsungin-cnnnow-samsungin/playlist.m3u8
 CGTN News |  | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/cgtn.stream/playlist.m3u8
 DW Naws |  | https://dwamdstream102.akamaized.net/hls/live/2015525/dwstream102/index.m3u8
-France 24 | https://upload.wikimedia.org/wikipedia/en/thumb/6/65/FRANCE_24_logo.svg/1200px-FRANCE_24_logo.svg.png | https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/fr24.stream/playlist.m3u8
 RT Now |  | https://rt-glb.rttv.com/live/rtnews/playlist.m3u8
 Sky News |  | https://d39chvnxm26pgp.cloudfront.net/v1/master/72588bff830dec7b26d7cbbf5f3c24928aec5c03/cc-sthen6ms4vxgv-stage/WNSFO/ABR.m3u8
 CNA News |  | https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index_5.m3u8
@@ -88,6 +86,7 @@ NEXT TV | https://imglink.cc/cdn/RY7jBwPKAr.jpg | https://next.badinan.xyz/nextt
 DAZN Spanish Commentators | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/94/index.m3u8
 FIFA Live 🇦🇺 🇹🇷 | https://shorturl.at/NPoFh | https://andro.226503.xyz/checklist/androstreamlivebs1.m3u8
 Somoy TV 🇧🇩 | https://shorturl.at/NPoFh | https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8
+D Sports | https://imglink.cc/cdn/RY7jBwPKAr.jpg | https://1nyaler.streamhostingcdn.top/stream/106/index.m3u8
 Win Sports 🇧🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/32/index.m3u8
 Bein Sports Direct 🇫🇷 | https://shorturl.at/NPoFh | https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8
 Discovery_Asia HD |   | https://cdn4.skygo.mn/live/disk1/Discovery_Asia/HLSv3-FTA/Discovery_Asia-avc1_3000000=67-mp4a_256000_eng=12.m3u8
@@ -108,7 +107,6 @@ Arabica TV |   | http://istream.binarywaves.com:8081/hls/arabica/playlist.m3u8
 Desh TV |   | https://bozztv.com/rongo/rongo-DeshTV/tracks-v1a1/mono.m3u8
 pcv |   | https://padmaonline.duckdns.org:8088/pcv/index.m3u8
 9XM TV |   | https://wiselp.wiseplayout.com/9XM/HD1080/HD1080.m3u8
-Deepto TV |   | https://byphdgllyk.gpcdn.net/hls/deeptotv/0_1/index.m3u8
 BBC Cbeebies | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209622/index.m3u8
 Cartoon Network | https://i.postimg.cc/d3j5T2F8/Cartoon-Network.jpg | https://live20.bozztv.com/giatvplayout7/giatv-209624/index.m3u8
 PBS Kids | https://i.imgur.com/ubZMeQv.jpg | https://2-fss-2.streamhoster.com/pl_140/amlst:200914-1298290/playlist.m3u8
@@ -125,7 +123,6 @@ ALMASIRA MUBASHER | https://i.ibb.co/ypj95gJ/almasirah.png | https://live2.cdnbr
 AL EKHBARIA | https://i.ibb.co/TkVK043/ekbariya.png | https://cdn-globecast.akamaized.net/live/eds/al_ekhbariya/hls_roku/index.m3u8
 AL EKHBARIA | https://i.ibb.co/TkVK043/ekbariya.png | https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 AL ISTIQAMA | https://i.ibb.co/HPzRmd3/alistiqama.png | https://jmc-live.ercdn.net/alistiqama/alistiqama.m3u8
-Discovery HD |  | https://svs.itworkscdn.net/asharqdiscoverylive/asharqd.smil/playlist_dvr.m3u8
 Sochi 24 HD 🇷🇺 |  | http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 ACCU WEATHER | https://upload.wikimedia.org/wikipedia/commons/5/5d/AccuWeather_2021.svg | https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8?v=1
 Amazon SAT |  | https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
