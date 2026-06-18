@@ -2,8 +2,8 @@ name: Validate M3U playlists
 
 on:
   schedule:
-    # Every 3 hours (UTC). Change to "0 */2 * * *" for every 2 hours.
-    - cron: "0 */3 * * *"
+    # Every 6 hours (UTC). Change to "0 */3 * * *" for every 3 hours.
+    - cron: "0 */6 * * *"
   workflow_dispatch: {}
   push:
     branches: [main]
@@ -25,7 +25,7 @@ concurrency:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 350
     steps:
       - name: Checkout
         uses: actions/checkout@v5
@@ -57,9 +57,9 @@ jobs:
           # Stage 3: ffmpeg actually decodes a few seconds of each surviving
           # channel for the strictest validation. Set FFPROBE_TEST=0 to disable.
           FFPROBE_TEST: "1"
-          FFPROBE_WORKERS: "6"
-          FFPROBE_SECS: "4"
-          FFPROBE_TIMEOUT: "15000"
+          FFPROBE_WORKERS: "16"
+          FFPROBE_SECS: "3"
+          FFPROBE_TIMEOUT: "12000"
         run: python validator.py
 
       - name: Commit refreshed outputs
