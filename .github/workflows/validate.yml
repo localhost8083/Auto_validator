@@ -128,8 +128,25 @@ jobs:
           git add output/validated.json output/validated.m3u output/validated.txt
           if git diff --cached --quiet; then
             echo "No changes to commit."
-          else
-            git commit -m "chore: refresh validated playlists ($(date -u '+%Y-%m-%d %H:%M UTC'))"
-            git pull --rebase --autostash origin main
-            git push
+            exit 0
           fi
+          git commit -m "chore: refresh validated playlists ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+          # The output files are fully regenerated artifacts, so on any conflict
+          # with main our freshly generated version must win (-X theirs during a
+          # rebase favors the commit being replayed). Retry to survive races
+          # with other pushes to main.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase -X theirs origin/main; then
+              if git push; then
+                echo "Pushed on attempt $attempt."
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            echo "Push attempt $attempt failed; retrying..."
+            sleep $((RANDOM % 5 + 2))
+          done
+          echo "::error::Could not push refreshed outputs after multiple attempts."
+          exit 1
