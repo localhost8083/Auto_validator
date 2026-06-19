@@ -15,3 +15,4 @@ https://raw.githubusercontent.com/imShakil/tvlink/5425dd81c57e6c62504705e36a0594
 https://raw.githubusercontent.com/robinhossainraaj/rorax-iptv-database/98bb66e9781729b5cf2ef6bc4008baebb184cc3e/playlist/FIFA_WorldCup2026_Channels_fixed.m3u8
 https://raw.githubusercontent.com/abusaeeidx/Mrgify-BDIX-IPTV/refs/heads/main/playlist.m3u
 https://raw.githubusercontent.com/abusaeeidx/IPTV-Scraper-Zilla/main/combined-playlist.m3u
+https://raw.githubusercontent.com/ejajmamud/fifa/a248764ac141d13391d637cd66e35660f74ff0b5/Fifa%20world%20cup.m3u
